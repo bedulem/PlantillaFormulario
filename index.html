@@ -1,59 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plantilla formulario</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/script.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <main>
-    <h1>Plantilla de formulario</h1>
-<form action="">
-<div class="formContenedor">
-    <label for="nombre">Nombre</label>
-    <input type="text" name="nombre" id="nombre" required placeholder="Pepito" autocomplete="off">
-</div>
-<div class="formContenedor">
-    <label for="apellido">Apellido:</label>
-    <input type="text" name="apellido" id="apellido" required placeholder="Perez" autocomplete="off">
-</div>
-<div class="formContenedor">
-    <label for="email"Ciudad>Email</label>
-    <input type="email" name="email" id="email" required placeholder="example@gmial.com" autocomplete="off">
-</div>
-<div class="formContenedor">
-    <label for="nacimiento">Feche de nacimiento: </label>
-    <input type="date" name="nacimiento" id="nacimiento" required autocomplete="off">
-</div>
-<div class="formContenedor">
-    <label for="telefono">Teléfono</label>
-    <input type="tel" name="telefono" id="telefono" placeholder="351369852" autocomplete="off">
-</div>
-<div class="formContenedor">
-    <label for="servicio">Elige una opción</label>
-    <select name="servicio" id="servicio" required>
-        <option value="Netflix">Netflix</option>
-        <option value="Amazon Prime">Amazon Prime</option>
-        <option value="HBO">HBO</option>
-        <option value="Disney +">Disney +</option>
-    </select>
-</div>
-<div class="formContenedor">
-    <ul id="errores">
-</ul>
-</div>
-    
+      <h1>Plantilla de formulario</h1>
+      <form action="">
+        <div class="formContenedor">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            required
+            placeholder="Pepito"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formContenedor">
+          <label for="apellido">Apellido:</label>
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            required
+            placeholder="Perez"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formContenedor">
+          <label for="email" Ciudad>Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="example@gmial.com"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formContenedor">
+          <label for="nacimiento">Feche de nacimiento: </label>
+          <input
+            type="date"
+            name="nacimiento"
+            id="nacimiento"
+            required
+            autocomplete="off"
+          />
+        </div>
+        <div class="formContenedor">
+          <label for="telefono">Teléfono</label>
+          <input
+            type="tel"
+            name="telefono"
+            id="telefono"
+            placeholder="351369852"
+            autocomplete="off"
+          />
+        </div>
+        <div class="formContenedor">
+          <label for="servicio">Elige una opción</label>
+          <select name="servicio" id="servicio" required>
+            <option value="Netflix">Netflix</option>
+            <option value="Amazon Prime">Amazon Prime</option>
+            <option value="HBO">HBO</option>
+            <option value="Disney +">Disney +</option>
+          </select>
+        </div>
+        <div class="formContenedor">
+          <ul id="errores"></ul>
+        </div>
 
-<div class="formContenedor"> 
-    <div class="submit">
-    <input type="submit" value="Enviar" id="submit">
-</div>
-</div>
-
-</form>
-</main>
-</body>
+        <div class="formContenedor">
+          <div class="submit">
+            <input type="submit" value="Enviar" id="submit" />
+          </div>
+        </div>
+      </form>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
